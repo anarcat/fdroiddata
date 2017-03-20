@@ -51,6 +51,27 @@ If you want also encrypted voice and video calls to work without Google Play Ser
 have to enable *Video calling beta* option in *Settings -> Advanced*.
 See [Video calls for Signal now in public beta](https://whispersystems.org/blog/signal-video-calls-beta) for more information.
 
+I'm still confused: what are all those LibreSignal builds?
+----------------------------------------------------------
+
+Maybe this table can help clarifying the history behind the LibreSignal name:
+
+| App ID | Name | Source | Repository | Notes |
+| ------ | ---- | ------ | ---------- | ----- |
+| org.thoughtcrime.securesms | Signal | [WhisperSystems/Signal-Android][] | [Google Play Store][] and [signal.org][] | Official build |
+| org.thoughtcrime.securesms | LibreSignal | [WhisperSystems/Signal-Android][] | [eutopia.cz][] | Unofficial rebuild |
+| org.thoughtcrime.redphone | PhoneLibre | [WhisperSystems/Redphone][] | [eutopia.cz][] | Old Redphone fork |
+| org.thoughtcrime.securesms | LibreSignal | [LibreSignal/LibreSignal][] | [eutopia.cz][]/experimental | Websocket fork, deprecated |
+| org.libresignal | LibreSignal | [LibreSignal/LibreSignal][] | [fdroid.org][]/archive | Websocket fork, deprecated |
+
+ [WhisperSystems/Signal-Android]: https://github.com/WhisperSystems/Signal-Android
+ [WhisperSystems/Redphone]: https://github.com/WhisperSystems/Redphone
+ [LibreSignal/LibreSignal]: https://github.com/LibreSignal/LibreSignal
+ [Google Play Store]: https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms
+ [signal.org]: https://signal.org/android/apk/
+ [eutopia.cz]: https://fdroid.eutopia.cz/
+ [fdroid.org]: https://fdroid.org
+
 Motivation
 ----------
 
